@@ -26,7 +26,7 @@ public class RahulTestOdometrySetup extends LinearOpMode {
         odometry.setEncoderDirections(GoBildaPinpointDriver.EncoderDirection.FORWARD, GoBildaPinpointDriver.EncoderDirection.FORWARD);
         odometry.resetPosAndIMU();
 
-        telemetry.addData("Status", "Initialized");
+        telemetry.addData("Status", "Initialized Robot");
         telemetry.addData("Status", odometry.getDeviceStatus());
         telemetry.addData("Device Id", odometry.getDeviceID());
         telemetry.addData("Device Name", odometry.getDeviceName());

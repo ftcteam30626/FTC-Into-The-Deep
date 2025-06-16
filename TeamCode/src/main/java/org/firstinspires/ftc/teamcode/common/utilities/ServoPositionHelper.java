@@ -5,7 +5,6 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.Servo;
 
-
 @Config
 @TeleOp(name="Servo Position Helper", group="Linear OpMode")
 public class ServoPositionHelper extends LinearOpMode {

@@ -62,7 +62,7 @@ public final class MecanumDrive {
 
         // drive model parameters
         // 2 Tiles, 47 inches, 23833 ticks
-        public double inPerTick = 507.08;
+        public double inPerTick = 0.001972055;
         public double lateralInPerTick = inPerTick;
         public double trackWidthTicks = 0;
 
